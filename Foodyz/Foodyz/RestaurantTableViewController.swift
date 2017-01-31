@@ -78,6 +78,7 @@ class RestaurantTableViewController: UITableViewController {
             }
             })
             
+            
             // Delete button
             let deleteAction = UITableViewRowAction(style: UITableViewRowActionStyle.Default, title: "Delete", handler:  { (action, indexPath) -> Void in
         
@@ -89,6 +90,11 @@ class RestaurantTableViewController: UITableViewController {
                 self.restaurantImages.removeAtIndex(indexPath.row)
                 self.tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
             })
+            
+            // Customize UITableViewRowAction
+            shareAction.backgroundColor = UIColor(red: 28.0/255.0, green: 165.0/255.0, blue: 253.0/255.0,alpha: 1.0)
+            deleteAction.backgroundColor = UIColor(red: 202.0/255.0, green: 202.0/255.0, blue: 203.0/255.0, alpha: 1.0)
+            
             return [deleteAction, shareAction]
     }
     
