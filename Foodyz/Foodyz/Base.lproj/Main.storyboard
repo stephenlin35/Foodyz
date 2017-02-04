@@ -75,6 +75,7 @@
                                     <outlet property="nameLabel" destination="dKT-0q-c3M" id="CD5-e8-txs"/>
                                     <outlet property="thumbnailImageView" destination="Zn2-sp-2j8" id="pHG-4j-AxJ"/>
                                     <outlet property="typeLabel" destination="VmB-xJ-zsy" id="Jt9-GG-bbg"/>
+                                    <segue destination="Ah7-Fa-S7Z" kind="show" id="xuZ-Il-2uV"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
