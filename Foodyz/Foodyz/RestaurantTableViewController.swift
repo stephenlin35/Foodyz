@@ -98,6 +98,16 @@ class RestaurantTableViewController: UITableViewController {
             return [deleteAction, shareAction]
     }
     
+    // Segue to send restaurant image to the Detail View
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+            if segue.identifier == "showRestaurantDetail" {
+                    if let indexPath = tableView.indexPathForSelectedRow {
+                    let destinationController = segue.destinationViewController as! RestaurantDetailViewController
+                    destinationController.restaurantImage = restaurantImages[indexPath.row]
+                    }
+            }
+    }
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
