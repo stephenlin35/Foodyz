@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Foodyz/RestaurantTableViewController.swift"
+            timestampString = "508471401.998862"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "tableView(_:editActionsForRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Foodyz/RestaurantDetailViewController.swift"
+            timestampString = "508475927.810074"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "RestaurantDetailViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foodyz.RestaurantDetailViewController.restaurantType.setter : Swift.String"
+                  moduleName = "Foodyz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stephenlin/Documents/ios/Foodyz/Foodyz/RestaurantDetailViewController.swift"
+                  timestampString = "508475970.99168"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foodyz.RestaurantDetailViewController.restaurantType.materializeForSet : Swift.String"
+                  moduleName = "Foodyz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stephenlin/Documents/ios/Foodyz/Foodyz/RestaurantDetailViewController.swift"
+                  timestampString = "508475970.991956"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foodyz.RestaurantDetailViewController.init (Foodyz.RestaurantDetailViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Foodyz.RestaurantDetailViewController"
+                  moduleName = "Foodyz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stephenlin/Documents/ios/Foodyz/Foodyz/RestaurantDetailViewController.swift"
+                  timestampString = "508475970.992223"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "535">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foodyz.RestaurantDetailViewController.init (Foodyz.RestaurantDetailViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Foodyz.RestaurantDetailViewController&gt;"
+                  moduleName = "Foodyz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stephenlin/Documents/ios/Foodyz/Foodyz/RestaurantDetailViewController.swift"
+                  timestampString = "508475970.992404"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "420">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
