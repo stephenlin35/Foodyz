@@ -18,6 +18,8 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
     
     @IBOutlet weak var restaurantTypeLabel: UILabel!
     
+    @IBOutlet var tableView: UITableView!
+    
     var restaurant: Restaurant!
     
     override func viewDidLoad() {
@@ -25,9 +27,8 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
 
         // Do any additional setup after loading the view.
         restaurantImageView.image = UIImage(named: restaurant.image)
-     //   restaurantNameLabel.text = restaurant.name
-     //   restaurantLocationLabel.text = restaurant.location
-     //   restaurantTypeLabel.text = restaurant.type
+        
+        tableView.tableFooterView = UIView(frame: CGRectZero)
     }
 
     override func didReceiveMemoryWarning() {
