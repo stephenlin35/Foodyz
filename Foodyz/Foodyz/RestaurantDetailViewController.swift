@@ -30,12 +30,17 @@ class RestaurantDetailViewController: UIViewController, UITableViewDataSource, U
         
         tableView.tableFooterView = UIView(frame: CGRectZero)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.hidesBarsOnSwipe = false
+        navigationController?.setNavigationBarHidden(false, animated: true)
+    }
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 4

@@ -42,10 +42,12 @@ class RestaurantTableViewController: UITableViewController {
         
         // Remove title of the back button
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .Plain, target: nil, action: nil)
-        
-        
-        
     }
+    
+//    func viewWllAppear(animated: Bool) {
+//        super.viewWillAppear(animated)
+//        navigationController?.hidesBarsOnSwipe = true
+//    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
